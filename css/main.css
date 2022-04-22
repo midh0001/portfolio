@@ -58,12 +58,22 @@ body {
     font-family: 'Noto Serif', 'Times New Roman', Times, serif;
 }
 
+img {
+    max-width: 99%;
+    padding: 10px;
+
+}
+
 a {
     text-decoration: none;
     color: white;
     line-height: 50px;
 }
 
+
+p {
+    line-height: 2em;
+}
 h1 {
     font-size: 48px;
     color: white;
@@ -105,6 +115,7 @@ button {
 header {
     background-color: #3E405B;
     color: white;
+    padding: 20px;
 }
 
 footer {
@@ -123,8 +134,10 @@ footer .container {
 }
 
 .intro {
-    padding-top: 20px 150px;
+    padding-top: 20px;
+    padding-bottom: 40px;
     background-color: #3E405B;
+
 }
 
 .vikram {
@@ -132,6 +145,8 @@ footer .container {
     padding-bottom: 25px;
     padding-left: 20px;
     padding-right: 20px;
+    justify-content: center;
+
 }
 
 .feature {
@@ -139,6 +154,8 @@ footer .container {
     padding-bottom: 30px;
     padding-left: 20px;
     padding-right: 20px;
+    justify-content: center;
+
 }
 
 .get_started {
@@ -147,6 +164,8 @@ footer .container {
     padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
+    justify-content: center;
+
 }
 
 header .container {
@@ -186,6 +205,19 @@ header nav ul li a {
         padding-left: 0;
         padding-right: 0;
         margin: 0 auto;
+    }
+
+    header nav {
+        display: flex;
+        gap: 180px;
+    }
+    header nav ul li {
+        flex-grow: 1;
+        justify-content: center;
+
+
+
+
     }
 
 }
